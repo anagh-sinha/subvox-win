@@ -18,6 +18,10 @@ pip install -r requirements.txt
 ```
 
 ## Use
+Double-click `Subvox.bat` (or run `python -m subvox_win`) for the desktop app: live camera plus
+Train / Evaluate / Decode tabs. Space starts/stops a recording.
+
+Command line:
 ```
 python -m subvox_win train yes no stop go --reps 10   # SPACE starts / stops each word, Q quits
 python -m subvox_win evaluate                          # accuracy, p-value, confusion matrix
